@@ -7,3 +7,9 @@
 .preview-days{display:flex;gap:9px;margin:24px 0 18px;position:relative}.preview-days i{font:700 11px "DM Mono",monospace;font-style:normal;width:39px;height:39px;border:1px solid #454a37;display:grid;place-items:center;color:#999e89}.preview-days i.done{background:var(--lime);color:#1a1c14;border-color:var(--lime)}
 .preview-line{height:1px;background:#343928;position:relative}.preview-session{padding:18px 0}.preview-session>span{font:10px "DM Mono",monospace;color:var(--lime);align-self:start;padding-top:3px}.preview-session div{margin-right:auto;margin-left:13px}.preview-session small{display:block;font:9px "DM Mono",monospace;color:#a8ac97;margin-bottom:6px}.preview-session strong{display:block;font-size:17px;line-height:1.05;letter-spacing:-.7px}.preview-session>b{font:25px "DM Mono",monospace;letter-spacing:-2px}.preview-session>b span{font-size:9px;letter-spacing:0;color:#a9ad97;margin-left:2px}.preview-footer{padding-top:12px;border-top:1px solid #343928;color:#a8ac97;font:9px "DM Mono",monospace}.preview-footer i{font-style:normal;color:var(--lime);font-size:18px}
 @media(max-width:800px){.cta-preview{width:min(305px,100%);margin:46px auto 10px}}@media(max-width:410px){.preview-days{gap:5px}.preview-days i{width:34px;height:34px}}
+
+/* Restore comfortable word spacing in display typography. */
+h1{letter-spacing:-1.8px;line-height:1.04}
+.statement h2,.steps h2,.cta h2{letter-spacing:-1.8px;line-height:1.08}
+.feature h3{letter-spacing:-.55px;line-height:1.1}
+.phone-screen h2{letter-spacing:-.8px;line-height:1.02}
