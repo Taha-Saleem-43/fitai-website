@@ -1,0 +1,9 @@
+/* Final CTA refinement: a stable plan preview, no rotating display element. */
+.cta{gap:55px}
+.cta-preview{width:305px;align-self:center;background:#151710;color:#f5f7e9;border:7px solid #c4db4d;padding:19px 18px 15px;box-shadow:14px 14px 0 #98ad31;transform:rotate(2deg);position:relative}
+.cta-preview:before{content:"";position:absolute;inset:8px;border:1px solid #363b27;pointer-events:none}
+.preview-top,.preview-session,.preview-footer{position:relative;display:flex;justify-content:space-between;align-items:center}
+.preview-top{font:10px "DM Mono",monospace;letter-spacing:.8px;color:#b5ba9c}.preview-top b{font-weight:400;color:var(--lime)}
+.preview-days{display:flex;gap:9px;margin:24px 0 18px;position:relative}.preview-days i{font:700 11px "DM Mono",monospace;font-style:normal;width:39px;height:39px;border:1px solid #454a37;display:grid;place-items:center;color:#999e89}.preview-days i.done{background:var(--lime);color:#1a1c14;border-color:var(--lime)}
+.preview-line{height:1px;background:#343928;position:relative}.preview-session{padding:18px 0}.preview-session>span{font:10px "DM Mono",monospace;color:var(--lime);align-self:start;padding-top:3px}.preview-session div{margin-right:auto;margin-left:13px}.preview-session small{display:block;font:9px "DM Mono",monospace;color:#a8ac97;margin-bottom:6px}.preview-session strong{display:block;font-size:17px;line-height:1.05;letter-spacing:-.7px}.preview-session>b{font:25px "DM Mono",monospace;letter-spacing:-2px}.preview-session>b span{font-size:9px;letter-spacing:0;color:#a9ad97;margin-left:2px}.preview-footer{padding-top:12px;border-top:1px solid #343928;color:#a8ac97;font:9px "DM Mono",monospace}.preview-footer i{font-style:normal;color:var(--lime);font-size:18px}
+@media(max-width:800px){.cta-preview{width:min(305px,100%);margin:46px auto 10px}}@media(max-width:410px){.preview-days{gap:5px}.preview-days i{width:34px;height:34px}}
